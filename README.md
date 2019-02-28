@@ -1,6 +1,6 @@
 # Gomoku
 
-##To run the UI:
+## To run the UI:
 * From inside `client` folder run `npm i && npm run start`. You must have a
 recent version of npm installed
 * Run the server with `go run main.go`
