@@ -1,0 +1,40 @@
+.btn {
+  border: none;
+  background: none;
+  opacity: 0.5;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.btn::after {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 17px;
+  background: center center / cover;
+}
+
+.btn__doubleLeft::after {
+  transform: rotate(180deg);
+  background-image: url("../../icons/double-chevron.svg");
+}
+
+.btn__left::after {
+  transform: rotate(180deg);
+  background-image: url("../../icons/chevron.svg");
+}
+
+.btn__right::after {
+  background-image: url("../../icons/chevron.svg");
+}
+
+.btn__doubleRight::after {
+  background-image: url("../../icons/double-chevron.svg");
+}

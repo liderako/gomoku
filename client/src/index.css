@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  min-width: 400px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+button {
+  height: 1.5rem;
+  padding: 0 10px;
+}

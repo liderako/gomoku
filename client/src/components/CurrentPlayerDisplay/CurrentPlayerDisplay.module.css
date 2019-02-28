@@ -1,0 +1,43 @@
+.container {
+  margin-right: auto;
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  padding: 0;
+  margin: 3px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  opacity: 0.5;
+  color: #6f6f6f;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn:disabled {
+  cursor: default;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn__white {
+  background-color: white;
+}
+
+.btn__black {
+  background-color: black;
+}
+
+.btn__selected {
+  opacity: 1;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.2);
+}

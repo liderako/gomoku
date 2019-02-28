@@ -1,0 +1,9 @@
+.overlay {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
