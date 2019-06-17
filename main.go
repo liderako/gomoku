@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-const PORT = "0.0.0.0:5555"
+const PORT = "0.0.0.0:6666"
 
 var cpuprofile = flag.String("cpuprofile", "", "write cpu profile to `file`")
 
